@@ -1,0 +1,10 @@
+<!ELEMENT svg (path+)>
+<!ATTLIST svg width NMTOKEN #REQUIRED>
+<!ATTLIST svg height NMTOKEN #REQUIRED>
+<!ATTLIST svg version NMTOKEN #REQUIRED>
+<!ATTLIST svg desc CDATA #REQUIRED>
+<!ELEMENT path EMPTY>
+<!ATTLIST path fill CDATA #REQUIRED>
+<!ATTLIST path stroke CDATA #REQUIRED>
+<!ATTLIST path stroke-width NMTOKEN #FIXED "1"><!ATTLIST path opacity NMTOKEN #FIXED "1">
+<!ATTLIST path d CDATA #REQUIRED>
